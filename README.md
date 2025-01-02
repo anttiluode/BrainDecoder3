@@ -56,7 +56,7 @@ python app.py
 
 load a EDF EEG and model. You can find a model trained with 1200 epochs from here: 
 
-https://github.com/anttiluode/BrainDecoder2/
+https://huggingface.co/Aluode/Braindecoder/tree/main
 
 You can mess with the frequency couplings and power etc. To try to tease out image like features. 
 They may be coming entirely from the latent space of the reverse image model, or.. Who knows.. 
