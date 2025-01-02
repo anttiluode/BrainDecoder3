@@ -54,6 +54,19 @@ Run the main application:
 python app.py
 ```
 
+load a EDF EEG and model. You can find a model trained with 1200 epochs from here: 
+
+https://github.com/anttiluode/BrainDecoder2/
+
+You can mess with the frequency couplings and power etc. To try to tease out image like features. 
+They may be coming entirely from the latent space of the reverse image model, or.. Who knows.. 
+The idea was that could eeg produce clusters of image like data that would cluster together 
+with the image model and could we see somehow image like data coming from the brain. The idea 
+with the frequencies is that finer (gamma) effect the fine detail (thought was that finer would 
+modulate more v3 v4 and it sort of ares. (Perhaps utter BS) and lower frequencies effect more 
+lower visual processing areas. But as it is, we do not know if we even get any visual data 
+from the brain. 
+
 The interface allows you to:
 - Load EEG data files (.edf format)
 - Adjust frequency band parameters
