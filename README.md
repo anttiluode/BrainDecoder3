@@ -1,5 +1,7 @@
 # Braindecoder3 (called eegnoids) - EEG Neural Field Pattern Visualizer
 
+![Brain Decoder 3](braindecoder3.png)
+
 EEGNoids is a novel visualization tool that transforms EEG data into neural field patterns and attempts to decode potential embedded image patterns using a trained neural network.
 
 ## Overview
